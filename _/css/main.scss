@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'WebNastaliq';
+  src: url("../font/IranNastaliq-Web.woff2") format('woff2'), url("../font/IranNastaliq-Web.woff") format('woff'), url("../css/font/IranNastaliq-Web.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+ background-color: #F2F2F2;
+}
+
+#container {
+  display: block;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.boxText {
+  padding: 50px 10px;
+  line-height: 1.5rm;
+  font-family: 'WebNastaliq' ,Tahoma;
+  text-align: justify;
+  border-bottom: 1px solid #777;
+  border-top: 1px solid #ccc;
+}
+
+.boxText span {
+  display: inline;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-left: 30px;
+  font-family: Tahoma;
+  background: red;
+  color: #fff;
+}
